@@ -11,10 +11,12 @@
     "outDir": "./dist",
     "noLib": false,
     "incremental": true,
-    "strict": true
+    "strict": true,
+    "declarationMap": true
   },
   "include": [
-    "src/**/*.ts"
+    "src/**/*.ts",
+    "./src/index.ts"
   ],
   "exclude": [
     "src/**/*.spec.ts"
