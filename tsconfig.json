@@ -7,19 +7,17 @@
     "experimentalDecorators": true,
     "allowSyntheticDefaultImports": true,
     "target": "es2017",
-    "sourceMap": false,
+    "sourceMap": true,
     "outDir": "./dist",
-    "rootDir": "./src",
     "noLib": false,
     "incremental": true,
     "strict": true,
-    "declarationMap": false
   },
   "include": [
     "src/**/*.ts",
-    "./src/index.ts"
   ],
   "exclude": [
+    "node_modules",
     "src/**/*.spec.ts"
   ]
 }
