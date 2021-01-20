@@ -9,10 +9,11 @@
     "target": "es2017",
     "sourceMap": false,
     "outDir": "./dist",
+    "rootDir": "./src",
     "noLib": false,
     "incremental": true,
     "strict": true,
-    "declarationMap": true
+    "declarationMap": false
   },
   "include": [
     "src/**/*.ts",
